@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Enter a URL for Analysis</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Analyze a URL</h2>
+            <form action="/url" method="post">
+                <label for="url_input">Enter URL:</label>
+                <input type="text" id="url_input" name="url_input" required>
+                <button type="submit">Predict</button>
+            </form>
+
+            {% if message %}
+                <p>{{ message }}</p>
+            {% endif %}
+
+
+            <a href="/" class="back-button">Back to Home</a>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Cyber Security Analysis Framework</h1>
+    </header>
+    <main>
+        <section>
+            <a href="/network"><button>Network Analysis</button></a>
+            <a href="/cloud"><button>Cloud Analysis</button></a>
+            <a href="/url"><button>URL Analysis</button></a>
+        </section>
+    </main>
+</body>
+</html>

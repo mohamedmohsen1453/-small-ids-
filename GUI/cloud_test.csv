@@ -1,0 +1,2 @@
+userAgent,eventName,awsRegion,eventVersion,userIdentitytype,userIdentityaccountId,userIdentityprincipalId,userIdentityarn,userIdentityaccessKeyId,userIdentityuserName,errorCode
+Boto3,RunInstances,eu-west-3,1.05,IAMUser,812000000000.0,AIDADO2GQD0K8TEF7KW1V,arn:aws:iam::811596193553:user/Level6,ASIAZ6XVDR2PA984G89L,Level6,Client.RequestLimitExceeded

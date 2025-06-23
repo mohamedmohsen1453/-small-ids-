@@ -1,0 +1,15 @@
+[
+    {
+        "userAgent":"Boto3",
+        "eventName":"RunInstances",
+        "awsRegion":"eu-west-3",
+        "eventVersion":1.05,
+        "userIdentitytype":"IAMUser",
+        "userIdentityaccountId":812000000000.0,
+        "userIdentityprincipalId":"AIDADO2GQD0K8TEF7KW1V",
+        "userIdentityarn":"arn:aws:iam::811596193553:user\/Level6",
+        "userIdentityaccessKeyId":"ASIAZ6XVDR2PA984G89L",
+        "userIdentityuserName":"Level6",
+        "errorCode":"Client.RequestLimitExceeded"
+    }
+]

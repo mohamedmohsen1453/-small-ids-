@@ -146,16 +146,7 @@ cybersecurity-framework/
 - Model: Advanced Neural Network (ANN)
 - Purpose: Classify URLs to detect phishing attempts.
 
-## Contributors
-
-- Samir Walid
-- Ahmed Fawzy
-- Omar Hamed
-- Ahmed Elgohary
-- Ahmed Gamal
-- Basant Emad
-- Amira Asem
-- Fayrouz Eslam
+## Contributors  mohamed mohsen 
 
 
 ---
